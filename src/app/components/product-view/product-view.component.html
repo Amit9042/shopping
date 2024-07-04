@@ -1,5 +1,9 @@
 <div class="product-view">
-    <img class="product-img" [src]="product.url" alt="">
+    <div class="product-img-section">
+        <img class="arrow forward" src="assets/images/arrow-forward-circle.svg" alt="">
+        <img class="arrow backward" src="assets/images/arrow-back-circle-sharp.svg" alt="">
+        <img class="product-img" [src]="product.url" alt="">
+    </div>
     <span class="price">RRP £{{product.price}}</span>
     <div class="product-desc">
         <span class="category">{{product.category}}</span>&nbsp;
