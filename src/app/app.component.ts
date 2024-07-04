@@ -11,6 +11,14 @@ export class AppComponent {
 
   productList: ProductModel[] = [
     {
+      url: 'assets/images/Image-Master.png',
+      price: 129.99,
+      category: 'Burberry',
+      name: 'Flowy Dress with pink and gold',
+      rental: 12.00,
+      size: 4
+    },
+    {
       url: 'assets/images/Image-Master-2.png',
       price: 129.99,
       category: 'Prada',
